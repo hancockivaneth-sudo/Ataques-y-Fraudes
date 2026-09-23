@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>SecureNet</title>
+
+        <!-- Hoja de estilos principal -->
+        <link rel="stylesheet" href="CSS/css.css">
+    </head>
+
+    <body>
+        <!-- Barra de navegación principal -->
+        <nav class="nav" aria-label="Navegación principal">
+            <div class="nav-container">
+                <a href="home.html" class="brand">SecureNet</a>
+
+                <ul class="nav-links">
+                    <li><a class="active" href="home.html">Inicio</a></li>
+                    <li><a href=".HTML/about.html">Acerca de</a></li>
+                    <li><a href=".HTML/contact.html">Contactanos</a></li>
+                </ul>
+
+                <a class="nav-button" href="#informacion">Más info</a>
+            </div>
+        </nav>
+
+        <main>
+            <!-- Presentación principal del sitio -->
+            <section class="hero" id="informacion">
+                <div class="hero-content">
+                    <p class="eyebrow">Guía básica de seguridad</p>
+                    <h1>Tu seguridad comienza con la información.</h1>
+                    <p class="hero-text">
+                        SecureNet te ayuda a reconocer ataques, evitar fraudes y tomar mejores decisiones cuando navegas por internet.
+                    </p>
+                    <a class="hero-button" href=".HTML/info.html">Comenzar a aprender</a>
+                </div>
+
+                <div class="hero-panel">
+                    <p class="panel-label">Antes de continuar</p>
+                    <h2>Hazte estas tres preguntas:</h2>
+                    <ul>
+                        <li>¿Conozco a la persona que me contacta?</li>
+                        <li>¿El enlace parece confiable?</li>
+                        <li>¿Estoy compartiendo demasiada información?</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Video informativo sobre ciberseguridad -->
+            <section class="video-section" aria-labelledby="video-title">
+                <div class="section-heading">
+                    <p class="eyebrow">Contenido recomendado</p>
+                    <h2 id="video-title">Aprende más sobre ciberseguridad</h2>
+                </div>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/04eOotvqG7M?si=F395cG3tZ7GcmRjz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p class="video-fallback">
+                    ¿No se muestra el video? <a href="https://www.youtube.com/watch?v=04eOotvqG7M" target="_blank" rel="noopener noreferrer">Abrir video en YouTube</a>.
+                </p>
+            </section>
+
+            <!-- Resumen de los temas que ofrece el sitio -->
+            <section class="topics" aria-labelledby="topics-title">
+                <div class="section-heading">
+                    <p class="eyebrow">Aprende paso a paso</p>
+                    <h2 id="topics-title">Temas principales</h2>
+                </div>
+                <div class="topic-grid">
+                    <a href=".HTML/info.html#ataques" class="topic-card">
+                        <span class="topic-number">01</span>
+                        <h3>Ataques</h3>
+                        <p>Conoce las amenazas que pueden afectar tus dispositivos y cuentas.</p>
+                    </a>
+                    <a href=".HTML/info.html#fraudes" class="topic-card">
+                        <span class="topic-number">02</span>
+                        <h3>Fraudes</h3>
+                        <p>Identifica señales de engaño antes de compartir información o dinero.</p>
+                    </a>
+                    <a href=".HTML/info.html#prevencion" class="topic-card">
+                        <span class="topic-number">03</span>
+                        <h3>Prevención</h3>
+                        <p>Aprende hábitos sencillos para mejorar tu seguridad digital.</p>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Pie de página con copyright y redes sociales -->
+        <footer class="footer">
+            <p>&copy; 2026 SecureNet. Todos los derechos reservados.</p>
+            <nav class="social-links" aria-label="Redes sociales">
+                <a href="#">YouTube</a>
+                <a href="#">X</a>
+                <a href="#">Instagram</a>
+            </nav>
+        </footer>
+    </body>
+</html>
